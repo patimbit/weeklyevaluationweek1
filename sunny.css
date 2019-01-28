@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body{
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+.temperature{
+  margin: 0 auto;
+  font-size: 60px;
+  border: solid;
+  border-color: black;
+  border-width: thick;
+  display: inline-block;
+  justify-content: space-around;
+  width:110px;
+}
+
+@media screen and (max-width: 800px;){
+  .temperature{
+    font-color:black;
+}
